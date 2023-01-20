@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    
+}
+
+#navbar {
+    position: fixed;
+}
+
+#welcome {
+    width: 100%;
+    height: 100vh;
+}
