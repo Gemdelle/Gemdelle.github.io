@@ -2,11 +2,22 @@
     
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #navbar {
     position: fixed;
+    background-color: pink;
+    width: 100%;
 }
 
 #welcome {
     width: 100%;
     height: 100vh;
+    background-image: url(Images/Collage-final.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
