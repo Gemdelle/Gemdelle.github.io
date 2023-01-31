@@ -11,6 +11,7 @@
     position: fixed;
     background-color: pink;
     width: 100%;
+    z-index: 2;
 }
 
 #welcome {
@@ -20,4 +21,30 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.left-side-decoration {
+    background-image: url(Images/Lace.png);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    width: 6vw;
+    height: 50vw;
+    top: 0;
+    left: 0;
+}
+
+.right-side-decoration {
+    background-image: url(Images/Lace.png);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    width: 6vw;
+    height: 50vw;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    position: relative;
 }
