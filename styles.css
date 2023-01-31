@@ -14,13 +14,36 @@
     z-index: 2;
 }
 
-#welcome {
-    width: 100%;
+#welcome-container {
+    width: 70vw;
     height: 100vh;
-    background-image: url(Images/Banner.png);
+    overflow: hidden;
+}
+
+#welcome {
+    width: 70vw;
+    height: 100vh;
+    background-image: url(Images/Banner01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom -2vw center;
+    transition: all 300ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#welcome:hover {
+    width: 70vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(Images/Banner02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -2vw center;
+    animation: pulse 1s linear infinite;
+    cursor: pointer;
 }
 
 .left-side-decoration {
@@ -33,7 +56,6 @@
     top: 0;
     left:-1.5vw;
     z-index: 1;
-    background-color: #B4B3B3;
 }
 
 .right-side-decoration {
@@ -46,7 +68,6 @@
     top: 0;
     right: -1.5vw;
     z-index: 1;
-    background-color: #B4B3B3;
 }
 
 .container {
@@ -54,6 +75,8 @@
     margin: 0 auto;
     width: 70vw;
 }
+
+
 
 /*ABOUT*/
 .about {
@@ -159,8 +182,16 @@
         transform: scale(100%);
     }
 
-    50% {
-        transform: scale(110%);
+    15% {
+        transform: scale(102%);
+    }
+
+    30% {
+        transform: scale(100%);
+    }
+
+    45% {
+        transform: scale(102%);
     }
 
     100% {
