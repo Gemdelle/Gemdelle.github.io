@@ -104,40 +104,43 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    transform: translateY(-30px);
+    transform: translateY(-22px);
     z-index: 1;
 }
 
 .openers {
-    border-radius: 50%;
-    background-color: antiquewhite;
     margin: 0px 10px;
 }
 
 .portrait {
-    height: 140px;
-    width: 140px;
     position: relative;
+    background-image: url(Images/Portrait.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 13vw;
+    width: 8vw;
 }
 
 .right-portrait {
-    height: 80px;
-    width: 80px;
+    height: 9vw;
+    width: 5vw;
+    background-image: url(Images/Creativity-trinket.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .left-portrait {
-    height: 80px;
-    width: 80px;
+    height: 9vw;
+    width: 5vw;
+    background-image: url(Images/Logic-trinket.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
-
-.profession {
-    position: absolute;
-    background-color: black;
-    top: 120px;
-    height: 40%;
-    width: 100%;
-}
-
 .portrait-profession {
     position: relative;
     height: 100%;
@@ -172,6 +175,25 @@
 
 .about-right h2 {
     float: right;
+}
+
+.fade-in-trinket {
+    background-image: url(Images/Fade-in-trinket.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3.8vw;
+    position: absolute;
+    top: 1.8vw;
+    left: 1vw;
+    transition: all 300ms ease-in-out;
+}
+
+.fade-in-trinket:hover {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
 }
 
 /*END ABOUT*/
