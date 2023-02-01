@@ -237,7 +237,37 @@
     left: 3vw;
     position: absolute;
     opacity: 0;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.right-top-description{
+    width: 19vw;
+    height: 19vw;
+    top: 2vw;
+    right: 2vw;
+    position: absolute;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.left-bottom-description {
+    width: 19vw;
+    height: 19vw;
+    bottom: 4vw;
+    left: 3vw;
+    position: absolute;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.right-bottom-description{
+    width: 19vw;
+    height: 19vw;
+    bottom: 4vw;
+    right: 3vw;
+    position: absolute;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
 }
 
 .projects-container{
@@ -256,6 +286,8 @@
     height: 35vw;
     width: 100%;
     position: absolute;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
 }
 
 .project-container{
@@ -388,6 +420,76 @@
     background-repeat: no-repeat;
 }
 
+.piano-project-description {
+    background-image: url(Images/piano_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nutrition-project-description{
+    background-image: url(Images/nutrition_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beautymorphosy-project-description{
+    background-image: url(Images/Beautymorphosy_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tribute-project-description{
+    background-image: url(Images/tribute_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.survey-project-description {
+    background-image: url(Images/Survey_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.registration-project-description {
+    background-image: url(Images/registration_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lps-project-description{
+    background-image: url(Images/lps_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.majesties-project-description{
+    background-image: url(Images/Majesties_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.product-project-description{
+    background-image: url(Images/product_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.magazine-project-description{
+    background-image: url(Images/magazine_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /*END DESCRIPTIONS*/
 
@@ -410,10 +512,22 @@
 }
 
 .projects-container:has(.memotest-project:hover) > .project-container .memotest-project-description,
-.projects-container:has(.ferris-project:hover) > .project-container .ferris-project-description,
-.projects-container:has(.flexbox-project:hover) > .project-container .flexbox-project-description {
+.projects-container:has(.ferris-wheel-project:hover) > .project-container .ferris-project-description,
+.projects-container:has(.documentation-project:hover) > .project-container .flexbox-project-description,
+.projects-container:has(.piano-project:hover) > .project-container .piano-project-description,
+.projects-container:has(.nutrition-project:hover) > .project-container .nutrition-project-description,
+.projects-container:has(.beautymorphosy-project:hover) > .project-container .beautymorphosy-project-description,
+.projects-container:has(.tribute-project:hover) > .project-container .tribute-project-description,
+
+.projects-container:has(.survey-project:hover) > .project-container .survey-project-description,
+.projects-container:has(.registration-project:hover) > .project-container .registration-project-description,
+.projects-container:has(.lps-project:hover) > .project-container .lps-project-description,
+.projects-container:has(.majesties-project:hover) > .project-container .majesties-project-description,
+
+.projects-container:has(.product-project:hover) > .project-container .product-project-description,
+.projects-container:has(.magazine-project:hover) > .project-container .magazine-project-description  {
     opacity: 1;
-    transition: all 300ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 .projects-container:has(.magazine-project:hover) > div.projects_backgrounds {
@@ -421,77 +535,109 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
     filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.product-project:hover) {
+.projects-container:has(.product-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-landing.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.lps-project:hover) {
+.projects-container:has(.lps-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-LPS.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.registration-project:hover) {
+.projects-container:has(.registration-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-registration.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.survey-project:hover) {
+.projects-container:has(.survey-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-survey.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.beautymorphosy-project:hover) {
+.projects-container:has(.beautymorphosy-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-beautymorphosy.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.tribute-project:hover) {
+.projects-container:has(.tribute-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-tribute.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.ferris-wheel-project:hover) {
+.projects-container:has(.ferris-wheel-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-ferris.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.nutrition-project:hover) {
+.projects-container:has(.nutrition-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-nutrition.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.piano-project:hover) {
+.projects-container:has(.piano-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-piano.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.documentation-project:hover) {
+.projects-container:has(.documentation-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-flexbox.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
 .projects-container:has(.memotest-project:hover) > div.projects_backgrounds {
@@ -499,14 +645,19 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
     filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.majesties-project:hover) {
+.projects-container:has(.majesties-project:hover) > div.projects_backgrounds {
     background-image: url(Images/Back-majesties.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 1;
+    filter: blur(9px);
+    transition: all 300ms ease-in-out;
 }
 
 
