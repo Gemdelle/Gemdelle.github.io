@@ -52,7 +52,7 @@
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 80vw;
+    height: 50.1vw;
     top: 0;
     left:-1.5vw;
     z-index: 1;
@@ -64,7 +64,7 @@
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 80vw;
+    height: 50.1vw;
     top: 0;
     right: -1.5vw;
     z-index: 1;
@@ -118,7 +118,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 13vw;
+    height: 13.2vw;
     width: 8vw;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .about-left {
-    height: 100%;
+    height: 14vw;
     width: 120vw;
     background-color: burlywood;
     padding-top: 8vw;
@@ -164,7 +164,7 @@
 }
 
 .about-right {
-    height: 100%;
+    height: 14vw;
     width: 120vw;
     background-color: brown;
     padding-top: 8vw;
@@ -197,6 +197,320 @@
 }
 
 /*END ABOUT*/
+
+.divisor {
+    width: 100%;
+    height: 2vw;
+    background-color: grey;
+}
+
+/*PROJECTS*/
+
+#projects {
+    height: 40vw;
+    width: 100%;
+    background-color: blue;
+}
+
+.small-project {
+    width: 7.5vw;
+    height: 7.5vw;
+    cursor: pointer;
+}
+
+.medium-project {
+    width: 9vw;
+    height: 9vw;
+    cursor: pointer;
+}
+
+.important-project {
+    width: 13vw;
+    height: 13vw;
+    cursor: pointer;
+}
+
+.left-top-description {
+    width: 19vw;
+    height: 19vw;
+    top: 4vw;
+    left: 3vw;
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.projects-container{
+    height: 35vw;
+    background-color: azure;
+    background-image: url(Images/Connections.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.projects_backgrounds {
+    height: 35vw;
+    width: 100%;
+    position: absolute;
+}
+
+.project-container{
+    width: 16.6%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.project-title {
+    width: 6vw;
+    height: 1.5vw;
+    background-color: grey;
+    border-radius: 0.3vw;
+}
+
+.project-title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magazine-project{
+    background-image: url(Images/Magazine_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-project{
+    background-image: url(Images/Product_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lps-project{
+    background-image: url(Images/LPS_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.registration-project{
+    background-image: url(Images/Registration_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.survey-project{
+    background-image: url(Images/Survey_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beautymorphosy-project{
+    background-image: url(Images/Beautymorphosy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tribute-project{
+    background-image: url(Images/Tribute_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ferris-wheel-project{
+    background-image: url(Images/FerrisWheel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nutrition-project{
+    background-image: url(Images/NutritionLabel_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.piano-project{
+    background-image: url(Images/Piano_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.documentation-project{
+    background-image: url(Images/Hellbox_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.memotest-project {
+    background-image: url(Images/memotest_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.majesties-project {
+    background-image: url(Images/Majesties_project.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*DESCRIPTIONS*/
+
+.memotest-project-description{
+    background-image: url(Images/memotest_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ferris-project-description{
+    background-image: url(Images/ferris_description.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flexbox-project-description{
+    background-image: url(Images/Hellbox_descriptions.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*END DESCRIPTIONS*/
+
+/*BACKGROUNDS PROJECTS*/
+
+.projects-container:has(.magazine-project:hover) > .project-container :not(.magazine),
+.projects-container:has(.product-project:hover) > .project-container :not(.product),
+.projects-container:has(.lps-project:hover) > .project-container :not(.lps),
+.projects-container:has(.registration-project:hover) > .project-container :not(.registration),
+.projects-container:has(.survey-project:hover) > .project-container :not(.survey),
+.projects-container:has(.beautymorphosy-project:hover) > .project-container :not(.beautymorphosy),
+.projects-container:has(.tribute-project:hover) > .project-container :not(.tribute),
+.projects-container:has(.majesties-project:hover) > .project-container :not(.majesties),
+.projects-container:has(.ferris-wheel-project:hover) > .project-container :not(.ferris),
+.projects-container:has(.nutrition-project:hover) > .project-container :not(.nutrition),
+.projects-container:has(.piano-project:hover) > .project-container :not(.piano),
+.projects-container:has(.documentation-project:hover) > .project-container :not(.documentation),
+.projects-container:has(.memotest-project:hover) > .project-container :not(.memotest) {
+    opacity: 0;
+}
+
+.projects-container:has(.memotest-project:hover) > .project-container .memotest-project-description,
+.projects-container:has(.ferris-project:hover) > .project-container .ferris-project-description,
+.projects-container:has(.flexbox-project:hover) > .project-container .flexbox-project-description {
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.projects-container:has(.magazine-project:hover) > div.projects_backgrounds {
+    background-image: url(Images/Back-magazine.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(9px);
+}
+
+.projects-container:has(.product-project:hover) {
+    background-image: url(Images/Back-landing.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.lps-project:hover) {
+    background-image: url(Images/Back-LPS.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.registration-project:hover) {
+    background-image: url(Images/Back-registration.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.survey-project:hover) {
+    background-image: url(Images/Back-survey.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.beautymorphosy-project:hover) {
+    background-image: url(Images/Back-beautymorphosy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.tribute-project:hover) {
+    background-image: url(Images/Back-tribute.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.ferris-wheel-project:hover) {
+    background-image: url(Images/Back-ferris.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.nutrition-project:hover) {
+    background-image: url(Images/Back-nutrition.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.piano-project:hover) {
+    background-image: url(Images/Back-piano.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.documentation-project:hover) {
+    background-image: url(Images/Back-flexbox.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-container:has(.memotest-project:hover) > div.projects_backgrounds {
+    background-image: url(Images/Back-memotest.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(9px);
+}
+
+.projects-container:has(.majesties-project:hover) {
+    background-image: url(Images/Back-majesties.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*END PROJECTS*/
 
 /*ANIMATIONS*/
 @keyframes pulse {
