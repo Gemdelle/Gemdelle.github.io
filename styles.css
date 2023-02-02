@@ -112,7 +112,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    transform: translateY(-10.8vw);
+    transform: translateY(-10.3vw);
     z-index: 1;
 }
 
@@ -126,7 +126,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 14vw;
+    height: 15vw;
     width: 32vw;
 }
 
