@@ -106,8 +106,8 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    transform: translateY(-22px);
+    align-items: flex-start;  
+    transform: translateY(-8vw);
     z-index: 1;
 }
 
@@ -129,7 +129,7 @@
     height: 9vw;
     width: 5vw;
     background-image: url(Images/Creativity-trinket.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -153,12 +153,20 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-left h2 {
     float: left;
     margin-right: 40px;
 }
+
+.about-left-text{
+    width: 25vw;
+}
+
 
 .about-right {
     height: 85%;
@@ -168,10 +176,17 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-right h2 {
     float: right;
+}
+
+.about-right-text{
+    width: 25vw;
 }
 
 .fade-in-trinket {
