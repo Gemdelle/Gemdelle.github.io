@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    cursor: url("Images/Cursor.png"), auto;
+}
+
 #navbar {
     position: fixed;
     background-color: pink;
@@ -41,7 +45,7 @@
     background-repeat: no-repeat;
     background-position: bottom -2vw right -11vw;
     animation: pulse 1s linear infinite;
-    cursor: pointer;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .left-side-decoration {
@@ -220,6 +224,7 @@
     opacity: 0;
     transition: all 300ms ease-in-out;
     cursor: pointer;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 /*END ABOUT*/
@@ -234,7 +239,46 @@
     background-repeat: no-repeat;
 }
 
+.divisor-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 /*PROJECTS*/
+
+.projects-title {
+    height: 10vw;
+    width: 30%;
+    background-image: url(Images/Projects-title.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 0.5vw;
+}
+
+.projects-button {
+    width: 11vw;
+    height: 11vw;
+    position: absolute;
+    margin-right: 7vw;
+    margin-top: 13vw;
+    background-image: url(Images/Show-all.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.projects-button:hover {
+    background-image: url(Images/Show-all-hover.png);
+    transform: scale(110%);
+    cursor: url("Images/Cursor-pointer.png"), auto;
+}
 
 .small-project {
     width: 7.5vw;
@@ -654,6 +698,7 @@
 .projects-container:has(.magazine-project:hover)>.project-container .magazine-project-description {
     opacity: 1;
     transition: all 500ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.magazine-project:hover)>div.projects_backgrounds {
@@ -674,6 +719,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.lps-project:hover)>div.projects_backgrounds {
@@ -684,6 +730,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.registration-project:hover)>div.projects_backgrounds {
@@ -694,6 +741,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.survey-project:hover)>div.projects_backgrounds {
@@ -704,6 +752,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.beautymorphosy-project:hover)>div.projects_backgrounds {
@@ -714,6 +763,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.tribute-project:hover)>div.projects_backgrounds {
@@ -724,6 +774,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.ferris-wheel-project:hover)>div.projects_backgrounds {
@@ -734,6 +785,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.nutrition-project:hover)>div.projects_backgrounds {
@@ -744,6 +796,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.piano-project:hover)>div.projects_backgrounds {
@@ -754,6 +807,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.documentation-project:hover)>div.projects_backgrounds {
@@ -764,6 +818,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.memotest-project:hover)>div.projects_backgrounds {
@@ -774,6 +829,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .projects-container:has(.majesties-project:hover)>div.projects_backgrounds {
@@ -784,6 +840,7 @@
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 
