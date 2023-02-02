@@ -289,7 +289,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    width: 1vw;
+    width: 0.5vw;
     height: 19vw;
     top: 0;
     left: 0;
@@ -303,7 +303,7 @@ html {
     background-repeat: no-repeat;
     position: absolute;
     height: 19vw;
-    width: 1vw;
+    width: 0.5vw;
     top: 0;
     right: 0;
     z-index: 1;
@@ -941,7 +941,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    width: 1vw;
+    width: 0.5vw;
     height: 41vw;
     top: 0;
     left: 0;
@@ -955,7 +955,7 @@ html {
     background-repeat: no-repeat;
     position: absolute;
     height: 41vw;
-    width: 1vw;
+    width: 0.5vw;
     top: 0;
     right: 0;
     z-index: 1;
