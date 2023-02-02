@@ -188,6 +188,7 @@
     top: 1.8vw;
     left: 1vw;
     transition: all 300ms ease-in-out;
+    filter: opacity(0.8);
 }
 
 .fade-in-trinket:hover {
@@ -219,6 +220,12 @@
     z-index: 2;
 }
 
+.small-project a {
+   width: 100%;
+   height: 100%; 
+   display: block;
+}
+
 .medium-project {
     width: 9vw;
     height: 9vw;
@@ -226,12 +233,24 @@
     z-index: 2;
 }
 
+.medium-project a {
+    width: 100%;
+    height: 100%; 
+    display: block;
+ }
+
 .important-project {
     width: 13vw;
     height: 13vw;
     cursor: pointer;
     z-index: 2;
 }
+
+.important-project a {
+    width: 100%;
+    height: 100%; 
+    display: block;
+ }
 
 .left-top-description {
     width: 19vw;
@@ -278,7 +297,7 @@
 }
 
 .projects-container{
-    height: 35vw;
+    height: 100%;
     background-color: azure;
     background-image: url(Images/Connections.png);
     background-size: cover;
@@ -290,7 +309,7 @@
 }
 
 .projects_backgrounds {
-    height: 35vw;
+    height: 100%;
     width: 100%;
     position: absolute;
     opacity: 0;
