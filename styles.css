@@ -50,7 +50,7 @@
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50.1vw;
+    height: 122vw;
     top: 0;
     left: -1.5vw;
     z-index: 1;
@@ -62,7 +62,7 @@
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50.1vw;
+    height: 122vw;
     top: 0;
     right: -1.5vw;
     z-index: 1;
@@ -320,15 +320,22 @@
 }
 
 .projects-container {
-    height: 100%;
     background-image: url(Images/Connections.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+}
+
+.projects-sub-container{
+    height: 100%;
     padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .projects_backgrounds {
@@ -604,22 +611,22 @@
 
 /*BACKGROUNDS PROJECTS*/
 
-.projects-container:has(.magazine-project:hover)>.project-container :not(.magazine),
-.projects-container:has(.product-project:hover)>.project-container :not(.product),
-.projects-container:has(.lps-project:hover)>.project-container :not(.lps),
-.projects-container:has(.registration-project:hover)>.project-container :not(.registration),
-.projects-container:has(.survey-project:hover)>.project-container :not(.survey),
-.projects-container:has(.beautymorphosy-project:hover)>.project-container :not(.beautymorphosy),
-.projects-container:has(.tribute-project:hover)>.project-container :not(.tribute),
-.projects-container:has(.majesties-project:hover)>.project-container :not(.majesties),
-.projects-container:has(.ferris-wheel-project:hover)>.project-container :not(.ferris),
-.projects-container:has(.nutrition-project:hover)>.project-container :not(.nutrition),
-.projects-container:has(.piano-project:hover)>.project-container :not(.piano),
-.projects-container:has(.documentation-project:hover)>.project-container :not(.documentation),
-.projects-container:has(.memotest-project:hover)>.project-container :not(.memotest) {
+.projects-container:has(.magazine-project:hover)>.projects-sub-container .project-container :not(.magazine),
+.projects-container:has(.product-project:hover)>.projects-sub-container .project-container :not(.product),
+.projects-container:has(.lps-project:hover)>.projects-sub-container .project-container :not(.lps),
+.projects-container:has(.registration-project:hover)>.projects-sub-container .project-container :not(.registration),
+.projects-container:has(.survey-project:hover)>.projects-sub-container .project-container :not(.survey),
+.projects-container:has(.beautymorphosy-project:hover)>.projects-sub-container .project-container :not(.beautymorphosy),
+.projects-container:has(.tribute-project:hover)>.projects-sub-container .project-container :not(.tribute),
+.projects-container:has(.majesties-project:hover)>.projects-sub-container .project-container :not(.majesties),
+.projects-container:has(.ferris-wheel-project:hover)>.projects-sub-container .project-container :not(.ferris),
+.projects-container:has(.nutrition-project:hover)>.projects-sub-container .project-container :not(.nutrition),
+.projects-container:has(.piano-project:hover)>.projects-sub-container .project-container :not(.piano),
+.projects-container:has(.documentation-project:hover)>.projects-sub-container .project-container :not(.documentation),
+.projects-container:has(.memotest-project:hover)>.projects-sub-container .project-container :not(.memotest) {
     opacity: 0;
 }
-/*
+
 .projects-container:has(.magazine-project:hover),
 .projects-container:has(.product-project:hover),
 .projects-container:has(.lps-project:hover),
@@ -635,23 +642,23 @@
 .projects-container:has(.memotest-project:hover) {
     padding: 0;
 }
-*/
 
-.projects-container:has(.memotest-project:hover)>.project-container .memotest-project-description,
-.projects-container:has(.ferris-wheel-project:hover)>.project-container .ferris-project-description,
-.projects-container:has(.documentation-project:hover)>.project-container .flexbox-project-description,
-.projects-container:has(.piano-project:hover)>.project-container .piano-project-description,
-.projects-container:has(.nutrition-project:hover)>.project-container .nutrition-project-description,
-.projects-container:has(.beautymorphosy-project:hover)>.project-container .beautymorphosy-project-description,
-.projects-container:has(.tribute-project:hover)>.project-container .tribute-project-description,
 
-.projects-container:has(.survey-project:hover)>.project-container .survey-project-description,
-.projects-container:has(.registration-project:hover)>.project-container .registration-project-description,
-.projects-container:has(.lps-project:hover)>.project-container .lps-project-description,
-.projects-container:has(.majesties-project:hover)>.project-container .majesties-project-description,
+.projects-container:has(.memotest-project:hover)>.projects-sub-container .project-container .memotest-project-description,
+.projects-container:has(.ferris-wheel-project:hover)>.projects-sub-container .project-container .ferris-project-description,
+.projects-container:has(.documentation-project:hover)>.projects-sub-container .project-container .flexbox-project-description,
+.projects-container:has(.piano-project:hover)>.projects-sub-container .project-container .piano-project-description,
+.projects-container:has(.nutrition-project:hover)>.projects-sub-container .project-container .nutrition-project-description,
+.projects-container:has(.beautymorphosy-project:hover)>.projects-sub-container .project-container .beautymorphosy-project-description,
+.projects-container:has(.tribute-project:hover)>.projects-sub-container .project-container .tribute-project-description,
 
-.projects-container:has(.product-project:hover)>.project-container .product-project-description,
-.projects-container:has(.magazine-project:hover)>.project-container .magazine-project-description {
+.projects-container:has(.survey-project:hover)>.projects-sub-container .project-container .survey-project-description,
+.projects-container:has(.registration-project:hover)>.projects-sub-container .project-container .registration-project-description,
+.projects-container:has(.lps-project:hover)>.projects-sub-container .project-container .lps-project-description,
+.projects-container:has(.majesties-project:hover)>.projects-sub-container .project-container .majesties-project-description,
+
+.projects-container:has(.product-project:hover)>.projects-sub-container .project-container .product-project-description,
+.projects-container:has(.magazine-project:hover)>.projects-sub-container .project-container .magazine-project-description {
     opacity: 1;
     transition: all 500ms ease-in-out;
 }
