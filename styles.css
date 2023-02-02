@@ -226,6 +226,32 @@ html {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
+.about-left-side-decoration{
+    background-image: url(Images/Portfolio-border.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1vw;
+    height: 19vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.about-right-side-decoration {
+    background-image: url(Images/Portfolio-border.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 19vw;
+    width: 1vw;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
 /*END ABOUT*/
 
 .divisor,
@@ -246,6 +272,10 @@ html {
 }
 
 /*PROJECTS*/
+
+#projects {
+    position: relative;
+}
 
 .projects-title {
     height: 9vw;
@@ -846,6 +876,32 @@ html {
     opacity: 1;
     filter: blur(9px);
     transition: all 300ms ease-in-out;
+}
+
+.porjects-left-side-decoration {
+    background-image: url(Images/Portfolio-border.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1vw;
+    height: 41vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.porjects-right-side-decoration {
+    background-image: url(Images/Portfolio-border.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 41vw;
+    width: 1vw;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 
