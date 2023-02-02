@@ -103,11 +103,12 @@
 }
 
 .about-center {
+    width: 40vw;
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: flex-start;  
-    transform: translateY(-8vw);
+    align-items: flex-start;
+    transform: translateY(-10vw);
     z-index: 1;
 }
 
@@ -122,7 +123,15 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 13.2vw;
-    width: 25vw;
+    width: 32vw;
+}
+
+.portrait-profession {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-portrait {
@@ -132,7 +141,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
+    right: 0;
 }
 
 .left-portrait {
@@ -142,7 +152,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
+    left: 0;
 }
 
 .about-left {
