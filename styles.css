@@ -1,6 +1,4 @@
-@media (max-width: 768px) {
-    
-}
+@media (max-width: 768px) {}
 
 * {
     margin: 0;
@@ -54,7 +52,7 @@
     width: 6vw;
     height: 50.1vw;
     top: 0;
-    left:-1.5vw;
+    left: -1.5vw;
     z-index: 1;
 }
 
@@ -84,15 +82,20 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+
 }
 
 .about-info {
-    background-color: rgb(95, 35, 35);
-    height: 22vw;
+    width: 100%;
+    height: 16vw;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    background-image: url(Images/About-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-info p {
@@ -141,6 +144,7 @@
     background-repeat: no-repeat;
     position: relative;
 }
+
 .portrait-profession {
     position: relative;
     height: 100%;
@@ -151,11 +155,14 @@
 .about-left {
     height: 14vw;
     width: 120vw;
-    background-color: burlywood;
     padding-top: 8vw;
     padding-left: 5vw;
     padding-right: 3vw;
     position: relative;
+    background-image: url(Images/Logic-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-left h2 {
@@ -166,11 +173,14 @@
 .about-right {
     height: 14vw;
     width: 120vw;
-    background-color: brown;
     padding-top: 8vw;
     padding-right: 5vw;
     padding-left: 3vw;
     position: relative;
+    background-image: url(Images/Creativity-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-right h2 {
@@ -199,16 +209,17 @@
 
 /*END ABOUT*/
 
-.divisor {
+.divisor,
+.divisor-margin {
     width: 100%;
-    height: 2vw;
-    background-color: grey;
+    height: 5.9vw;
+    background-image: url(Images/Divider.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .divisor-margin {
-    width: 100%;
-    height: 2vw;
-    background-color: grey;
     margin-bottom: 2vw;
 }
 
@@ -222,9 +233,9 @@
 }
 
 .small-project a {
-   width: 100%;
-   height: 100%; 
-   display: block;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .medium-project {
@@ -236,9 +247,9 @@
 
 .medium-project a {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: block;
- }
+}
 
 .important-project {
     width: 13vw;
@@ -249,9 +260,9 @@
 
 .important-project a {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: block;
- }
+}
 
 .left-top-description {
     width: 19vw;
@@ -264,7 +275,7 @@
     z-index: 1;
 }
 
-.right-top-description{
+.right-top-description {
     width: 19vw;
     height: 19vw;
     top: 2vw;
@@ -286,7 +297,7 @@
     z-index: 1;
 }
 
-.right-bottom-description{
+.right-bottom-description {
     width: 19vw;
     height: 19vw;
     bottom: 4vw;
@@ -297,7 +308,7 @@
     z-index: 1;
 }
 
-.projects-container{
+.projects-container {
     height: 100%;
     background-image: url(Images/Connections.png);
     background-size: cover;
@@ -316,7 +327,7 @@
     transition: all 500ms ease-in-out;
 }
 
-.project-container{
+.project-container {
     width: 16.6%;
     height: 33.33%;
     display: flex;
@@ -391,70 +402,77 @@
     align-items: center;
 }
 
-.magazine-project{
+.magazine-project {
     background-image: url(Images/Magazine_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.product-project{
+.product-project {
     background-image: url(Images/Product_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.lps-project{
+
+.lps-project {
     background-image: url(Images/LPS_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.registration-project{
+
+.registration-project {
     background-image: url(Images/Registration_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.survey-project{
+.survey-project {
     background-image: url(Images/Survey_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.beautymorphosy-project{
+.beautymorphosy-project {
     background-image: url(Images/Beautymorphosy.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.tribute-project{
+
+.tribute-project {
     background-image: url(Images/Tribute_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.ferris-wheel-project{
+
+.ferris-wheel-project {
     background-image: url(Images/FerrisWheel.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.nutrition-project{
+
+.nutrition-project {
     background-image: url(Images/NutritionLabel_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.piano-project{
+
+.piano-project {
     background-image: url(Images/Piano_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.documentation-project{
+
+.documentation-project {
     background-image: url(Images/Hellbox_project.png);
     background-size: cover;
     background-position: center;
@@ -477,21 +495,21 @@
 
 /*DESCRIPTIONS*/
 
-.memotest-project-description{
+.memotest-project-description {
     background-image: url(Images/memotest_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.ferris-project-description{
+.ferris-project-description {
     background-image: url(Images/ferris_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.flexbox-project-description{
+.flexbox-project-description {
     background-image: url(Images/Hellbox_descriptions.png);
     background-size: cover;
     background-position: center;
@@ -505,21 +523,21 @@
     background-repeat: no-repeat;
 }
 
-.nutrition-project-description{
+.nutrition-project-description {
     background-image: url(Images/nutrition_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.beautymorphosy-project-description{
+.beautymorphosy-project-description {
     background-image: url(Images/Beautymorphosy_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.tribute-project-description{
+.tribute-project-description {
     background-image: url(Images/tribute_description.png);
     background-size: cover;
     background-position: center;
@@ -539,14 +557,15 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.lps-project-description{
+
+.lps-project-description {
     background-image: url(Images/lps_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.majesties-project-description{
+.majesties-project-description {
     background-image: url(Images/Majesties_description.png);
     background-size: cover;
     background-position: center;
@@ -554,14 +573,14 @@
 }
 
 
-.product-project-description{
+.product-project-description {
     background-image: url(Images/product_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.magazine-project-description{
+.magazine-project-description {
     background-image: url(Images/magazine_description.png);
     background-size: cover;
     background-position: center;
@@ -573,42 +592,42 @@
 
 /*BACKGROUNDS PROJECTS*/
 
-.projects-container:has(.magazine-project:hover) > .project-container :not(.magazine),
-.projects-container:has(.product-project:hover) > .project-container :not(.product),
-.projects-container:has(.lps-project:hover) > .project-container :not(.lps),
-.projects-container:has(.registration-project:hover) > .project-container :not(.registration),
-.projects-container:has(.survey-project:hover) > .project-container :not(.survey),
-.projects-container:has(.beautymorphosy-project:hover) > .project-container :not(.beautymorphosy),
-.projects-container:has(.tribute-project:hover) > .project-container :not(.tribute),
-.projects-container:has(.majesties-project:hover) > .project-container :not(.majesties),
-.projects-container:has(.ferris-wheel-project:hover) > .project-container :not(.ferris),
-.projects-container:has(.nutrition-project:hover) > .project-container :not(.nutrition),
-.projects-container:has(.piano-project:hover) > .project-container :not(.piano),
-.projects-container:has(.documentation-project:hover) > .project-container :not(.documentation),
-.projects-container:has(.memotest-project:hover) > .project-container :not(.memotest) {
+.projects-container:has(.magazine-project:hover)>.project-container :not(.magazine),
+.projects-container:has(.product-project:hover)>.project-container :not(.product),
+.projects-container:has(.lps-project:hover)>.project-container :not(.lps),
+.projects-container:has(.registration-project:hover)>.project-container :not(.registration),
+.projects-container:has(.survey-project:hover)>.project-container :not(.survey),
+.projects-container:has(.beautymorphosy-project:hover)>.project-container :not(.beautymorphosy),
+.projects-container:has(.tribute-project:hover)>.project-container :not(.tribute),
+.projects-container:has(.majesties-project:hover)>.project-container :not(.majesties),
+.projects-container:has(.ferris-wheel-project:hover)>.project-container :not(.ferris),
+.projects-container:has(.nutrition-project:hover)>.project-container :not(.nutrition),
+.projects-container:has(.piano-project:hover)>.project-container :not(.piano),
+.projects-container:has(.documentation-project:hover)>.project-container :not(.documentation),
+.projects-container:has(.memotest-project:hover)>.project-container :not(.memotest) {
     opacity: 0;
 }
 
-.projects-container:has(.memotest-project:hover) > .project-container .memotest-project-description,
-.projects-container:has(.ferris-wheel-project:hover) > .project-container .ferris-project-description,
-.projects-container:has(.documentation-project:hover) > .project-container .flexbox-project-description,
-.projects-container:has(.piano-project:hover) > .project-container .piano-project-description,
-.projects-container:has(.nutrition-project:hover) > .project-container .nutrition-project-description,
-.projects-container:has(.beautymorphosy-project:hover) > .project-container .beautymorphosy-project-description,
-.projects-container:has(.tribute-project:hover) > .project-container .tribute-project-description,
+.projects-container:has(.memotest-project:hover)>.project-container .memotest-project-description,
+.projects-container:has(.ferris-wheel-project:hover)>.project-container .ferris-project-description,
+.projects-container:has(.documentation-project:hover)>.project-container .flexbox-project-description,
+.projects-container:has(.piano-project:hover)>.project-container .piano-project-description,
+.projects-container:has(.nutrition-project:hover)>.project-container .nutrition-project-description,
+.projects-container:has(.beautymorphosy-project:hover)>.project-container .beautymorphosy-project-description,
+.projects-container:has(.tribute-project:hover)>.project-container .tribute-project-description,
 
-.projects-container:has(.survey-project:hover) > .project-container .survey-project-description,
-.projects-container:has(.registration-project:hover) > .project-container .registration-project-description,
-.projects-container:has(.lps-project:hover) > .project-container .lps-project-description,
-.projects-container:has(.majesties-project:hover) > .project-container .majesties-project-description,
+.projects-container:has(.survey-project:hover)>.project-container .survey-project-description,
+.projects-container:has(.registration-project:hover)>.project-container .registration-project-description,
+.projects-container:has(.lps-project:hover)>.project-container .lps-project-description,
+.projects-container:has(.majesties-project:hover)>.project-container .majesties-project-description,
 
-.projects-container:has(.product-project:hover) > .project-container .product-project-description,
-.projects-container:has(.magazine-project:hover) > .project-container .magazine-project-description  {
+.projects-container:has(.product-project:hover)>.project-container .product-project-description,
+.projects-container:has(.magazine-project:hover)>.project-container .magazine-project-description {
     opacity: 1;
     transition: all 500ms ease-in-out;
 }
 
-.projects-container:has(.magazine-project:hover) > div.projects_backgrounds {
+.projects-container:has(.magazine-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-magazine.png);
     background-size: cover;
     background-position: center;
@@ -618,7 +637,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.product-project:hover) > div.projects_backgrounds {
+.projects-container:has(.product-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-landing.png);
     background-size: cover;
     background-position: center;
@@ -628,7 +647,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.lps-project:hover) > div.projects_backgrounds {
+.projects-container:has(.lps-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-LPS.png);
     background-size: cover;
     background-position: center;
@@ -638,7 +657,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.registration-project:hover) > div.projects_backgrounds {
+.projects-container:has(.registration-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-registration.png);
     background-size: cover;
     background-position: center;
@@ -648,7 +667,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.survey-project:hover) > div.projects_backgrounds {
+.projects-container:has(.survey-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-survey.png);
     background-size: cover;
     background-position: center;
@@ -658,7 +677,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.beautymorphosy-project:hover) > div.projects_backgrounds {
+.projects-container:has(.beautymorphosy-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-beautymorphosy.png);
     background-size: cover;
     background-position: center;
@@ -668,7 +687,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.tribute-project:hover) > div.projects_backgrounds {
+.projects-container:has(.tribute-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-tribute.png);
     background-size: cover;
     background-position: center;
@@ -678,7 +697,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.ferris-wheel-project:hover) > div.projects_backgrounds {
+.projects-container:has(.ferris-wheel-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-ferris.png);
     background-size: cover;
     background-position: center;
@@ -688,7 +707,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.nutrition-project:hover) > div.projects_backgrounds {
+.projects-container:has(.nutrition-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-nutrition.png);
     background-size: cover;
     background-position: center;
@@ -698,7 +717,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.piano-project:hover) > div.projects_backgrounds {
+.projects-container:has(.piano-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-piano.png);
     background-size: cover;
     background-position: center;
@@ -708,7 +727,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.documentation-project:hover) > div.projects_backgrounds {
+.projects-container:has(.documentation-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-flexbox.png);
     background-size: cover;
     background-position: center;
@@ -718,7 +737,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.memotest-project:hover) > div.projects_backgrounds {
+.projects-container:has(.memotest-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-memotest.png);
     background-size: cover;
     background-position: center;
@@ -728,7 +747,7 @@
     transition: all 300ms ease-in-out;
 }
 
-.projects-container:has(.majesties-project:hover) > div.projects_backgrounds {
+.projects-container:has(.majesties-project:hover)>div.projects_backgrounds {
     background-image: url(Images/Back-majesties.png);
     background-size: cover;
     background-position: center;
