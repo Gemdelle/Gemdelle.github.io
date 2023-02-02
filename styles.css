@@ -307,6 +307,58 @@
     position: relative;
 }
 
+.project-container:has(.magazine-project) {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-container:has(.product-project) {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.project-container:has(.registration-project) {
+    align-items: flex-end;
+}
+
+.project-container:has(.survey-project) {
+    justify-content: flex-end;
+}
+
+.project-container:has(.tribute-project) {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.project-container:has(.majesties-project) {
+    align-items: flex-end;
+}
+
+.project-container:has(.ferris-wheel-project) {
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.project-container:has(.nutrition-project) {
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.project-container:has(.piano-project) {
+    align-items: flex-start;
+}
+
+.project-container:has(.documentation-project) {
+    align-items: flex-end;
+}
+
+.project-container:has(.memotest-project) {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
 .project-title {
     width: 6vw;
     height: 1.5vw;
