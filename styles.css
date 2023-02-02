@@ -205,13 +205,14 @@
     background-color: grey;
 }
 
-/*PROJECTS*/
-
-#projects {
-    height: 40vw;
+.divisor-margin {
     width: 100%;
-    background-color: blue;
+    height: 2vw;
+    background-color: grey;
+    margin-bottom: 2vw;
 }
+
+/*PROJECTS*/
 
 .small-project {
     width: 7.5vw;
@@ -298,7 +299,6 @@
 
 .projects-container{
     height: 100%;
-    background-color: azure;
     background-image: url(Images/Connections.png);
     background-size: cover;
     background-position: center;
