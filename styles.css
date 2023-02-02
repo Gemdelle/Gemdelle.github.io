@@ -176,7 +176,7 @@
     margin-right: 40px;
 }
 
-.about-left-text{
+.about-left-text {
     width: 25vw;
 }
 
@@ -198,7 +198,7 @@
     float: right;
 }
 
-.about-right-text{
+.about-right-text {
     width: 25vw;
 }
 
@@ -322,7 +322,7 @@
 .projects-container {
     height: 100%;
     background-image: url(Images/Connections.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -619,6 +619,23 @@
 .projects-container:has(.memotest-project:hover)>.project-container :not(.memotest) {
     opacity: 0;
 }
+/*
+.projects-container:has(.magazine-project:hover),
+.projects-container:has(.product-project:hover),
+.projects-container:has(.lps-project:hover),
+.projects-container:has(.registration-project:hover),
+.projects-container:has(.survey-project:hover),
+.projects-container:has(.beautymorphosy-project:hover),
+.projects-container:has(.tribute-project:hover),
+.projects-container:has(.majesties-project:hover),
+.projects-container:has(.ferris-wheel-project:hover),
+.projects-container:has(.nutrition-project:hover),
+.projects-container:has(.piano-project:hover),
+.projects-container:has(.documentation-project:hover),
+.projects-container:has(.memotest-project:hover) {
+    padding: 0;
+}
+*/
 
 .projects-container:has(.memotest-project:hover)>.project-container .memotest-project-description,
 .projects-container:has(.ferris-wheel-project:hover)>.project-container .ferris-project-description,
