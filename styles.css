@@ -69,7 +69,15 @@ html {
 }
 
 #projects-anchor {
-    bottom: 47vw;
+    bottom: 83vw;
+    width: 213px;
+    height: 8vw;
+    position: absolute;
+    display: block;
+}
+
+#social-media-anchor {
+    bottom: 36vw;
     width: 213px;
     height: 8vw;
     position: absolute;
