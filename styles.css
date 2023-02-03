@@ -340,7 +340,6 @@ html {
     width: 25vw;
 }
 
-
 .about-right {
     height: 18vw;
     width: 32vw;
@@ -408,6 +407,51 @@ html {
     z-index: 1;
 }
 
+                /* Text */
+
+.about-left,
+.about-right {
+    filter: contrast(50%);
+    transition: all 500ms ease-in-out;
+}
+
+.about-left:hover,
+.about-right:hover {
+    filter: contrast(100%);
+}
+
+.about-left-text,
+.about-right-text {
+    color: rgb(187, 185, 185);
+    font-size: 1vw;
+}
+
+.about-left-text {
+    font-family: 'Old Standard TT', serif;
+}
+
+.about-right-text {
+    font-family: 'Pinyon Script', cursive;
+}
+
+.about-left-text:hover {
+    color: rgb(97, 97, 76);
+}
+
+.about-left-text h2 {
+    color: rgb(77, 77, 65);
+    font-size: 1.5vw;
+}
+
+.about-right-text:hover {
+    color: rgb(146, 141, 101);
+}
+
+.about-right-text h2{
+    color: rgb(99, 95, 67);
+    font-size: 2vw;
+}
+
 /*END ABOUT*/
 
 .divisor,
@@ -463,7 +507,7 @@ html {
 .projects-button:hover {
     cursor: url("Images/Cursor-pointer.png"), auto;
     background-image: url(Images/Show-all-hover.png);
-    transform: scale(110%);
+    transform: scale(105%);
 
 }
 
@@ -1174,7 +1218,6 @@ html {
 }
 
 .footer .location {
-    font-family: 'Satisfy', cursive;
     font-family: 'Old Standard TT', serif;
     font-style: italic;
 }
