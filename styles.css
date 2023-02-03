@@ -419,9 +419,11 @@ html {
 
 .about-left,
 .about-right {
-    filter: contrast(50%);
+    filter: contrast(30%);
     transition: all 500ms ease-in-out;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: lightgray;
 }
 
 .about-info:has(.left-portrait .fade-in-trinket:hover) > .about-left{
@@ -431,7 +433,15 @@ html {
 
 .about-info:has(.right-portrait .fade-in-trinket:hover) > .about-right {
     filter: contrast(100%);
-    color: rgb(146, 141, 101);
+    color: rgb(122, 119, 89);
+}
+
+.about-info:has(.left-portrait .fade-in-trinket:hover) > .about-left-text h2{
+    color: rgb(77, 77, 65);
+}
+
+.about-info:has(.right-portrait .fade-in-trinket:hover) > .about-right-text h2 {
+    color: rgb(99, 95, 67);
 }
 
 .about-left-text {
@@ -443,13 +453,11 @@ html {
 }
 
 .about-left-text h2 {
-    color: rgb(77, 77, 65);
     font-size: 1.5vw;
     text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
 }
 
 .about-right-text h2{
-    color: rgb(99, 95, 67);
     font-size: 2vw;
     text-shadow: 0vw 0.5vw 0.5vw rgb(100, 100, 77);
 }
