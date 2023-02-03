@@ -32,7 +32,7 @@ html {
     list-style-type: none;
 }
 
-#social-media-anchor{
+#social-media-anchor {
     top: 43vw;
     width: 213px;
     height: 7vw;
@@ -40,7 +40,7 @@ html {
     display: block;
 }
 
-#projects-anchor{
+#projects-anchor {
     bottom: 47vw;
     width: 213px;
     height: 8vw;
@@ -76,6 +76,27 @@ html {
 
 .projects {
     background-image: url(Images/Projects-neutral.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projects:hover {
+    background-image: url(Images/Projects-selected.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome:hover {
+    background-image: url(Images/Welcome-selected.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-media:hover {
+    background-image: url(Images/Contact-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
