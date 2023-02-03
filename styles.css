@@ -172,7 +172,7 @@ html {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
-#welcome-container {
+#welcome-section {
     width: 70vw;
     height: 100vh;
     overflow: hidden;
