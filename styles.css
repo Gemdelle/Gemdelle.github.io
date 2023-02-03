@@ -14,7 +14,7 @@ html {
     position: fixed;
     width: 100%;
     height: 7vw;
-    z-index: 2;
+    z-index: 3;
     background-image: url(Images/Nav-background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,11 +28,23 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 30vw;
+    width: 37vw;
     list-style-type: none;
 }
 
-#social-media-anchor {
+.footer {
+    width: 100%;
+    height: 7vw;
+    background-image: url(Images/Nav-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-anchor {
     top: 43vw;
     width: 213px;
     height: 7vw;
@@ -49,6 +61,7 @@ html {
 }
 
 .welcome,
+.about-nav,
 .projects,
 .social-media {
     width: 10vw;
@@ -70,6 +83,22 @@ html {
 
 .welcome:active {
     background-image: url(Images/Welcome-neutral.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 300ms ease-in-out;
+}
+
+.about-nav {
+    background-image: url(Images/About-neutral.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 300ms ease-in-out;
+}
+
+.about-nav:hover {
+    background-image: url(Images/About-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,6 +138,7 @@ html {
 }
 
 .welcome a,
+.about-nav a,
 .projects a,
 .social-media a {
     width: 60%;
