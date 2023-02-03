@@ -347,6 +347,7 @@ html {
     position: absolute;
     z-index: 1;
     margin-bottom: 0.5vw;
+    margin-left: -1vw;
 }
 
 .projects-button {
