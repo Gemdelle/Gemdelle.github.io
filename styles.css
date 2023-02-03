@@ -1078,6 +1078,18 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: rgb(205, 208, 185);
+}
+
+.footer .year {
+    letter-spacing: 0.2vw;
+    font-family: 'Satisfy', cursive;
+}
+
+.footer .location {
+    font-family: 'Satisfy', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
 }
 
 .footer-title {
@@ -1087,6 +1099,7 @@ html {
     align-items: center;
     font-family: 'Pinyon Script', cursive;
     font-size: 2vw;
+    text-shadow: 0vw 0.5vw 0.5vw rgb(0, 0, 0);
 }
 
 .icon-footer-left {
@@ -1108,6 +1121,8 @@ html {
     height: 2vw;
     margin-left: 0.5vw;
 }
+
+
 
 /*END FOOTER*/
 
