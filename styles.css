@@ -218,7 +218,7 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50vw;
+    height: 47.2vw;
     top: 0;
     left: -0.5vw;
     z-index: 1;
@@ -230,7 +230,7 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50vw;
+    height: 47.2vw;
     top: 0;
     right: -0.8vw;
     z-index: 1;
@@ -285,14 +285,36 @@ html {
 }
 
 .portrait {
+    height: 15vw;
+    width: 32vw;
     position: relative;
     background-image: url(Images/Portrait.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 15vw;
-    width: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.portrait:hover{
+    cursor: url("Images/Cursor-pointer.png"), auto;
+}
+
+.portrait-profession:has(.portrait:hover) > .portrait .photo-sparkles {
+    opacity: 1;
+}
+
+.photo-sparkles {
+    background-image: url(Images/Photo_sparkles.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12vw;
+    width: 26vw;
+    opacity: 0;
+}
+
 
 .portrait-profession {
     position: relative;
@@ -415,7 +437,7 @@ html {
     z-index: 1;
 }
 
-                /* Text */
+/* Text */
 
 .about-left,
 .about-right {
@@ -426,12 +448,12 @@ html {
     color: lightgray;
 }
 
-.about-info:has(.left-portrait .fade-in-trinket:hover) > .about-left{
+.about-info:has(.left-portrait .fade-in-trinket:hover)>.about-left {
     filter: contrast(100%);
     color: rgb(97, 97, 76);
 }
 
-.about-info:has(.right-portrait .fade-in-trinket:hover) > .about-right {
+.about-info:has(.right-portrait .fade-in-trinket:hover)>.about-right {
     filter: contrast(100%);
     color: rgb(122, 108, 89);
 }
@@ -457,7 +479,7 @@ html {
     text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
 }
 
-.about-right-text h2{
+.about-right-text h2 {
     font-size: 2vw;
     text-shadow: 0vw 0.5vw 0.5vw rgb(139, 126, 105);
 }
@@ -1198,7 +1220,7 @@ html {
     filter: contrast(60%);
 }
 
-.contact-info .contact-button-email {
+.contact-info .contact-button-email  {
     background-image: url(Images/Email-icon.png);
 }
 
