@@ -310,8 +310,8 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 12vw;
-    width: 26vw;
+    height: 8vw;
+    width: 10vw;
     opacity: 0;
 }
 
@@ -1203,6 +1203,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4vw;
 }
 
 .contact-info .contact-button-email,
@@ -1240,9 +1241,15 @@ html {
 .contact-info .contact-button-github:hover,
 .contact-info .contact-button-phone:hover,
 .contact-info .contact-button-instagram:hover {
-    cursor: url("Images/Cursor-pointer.png"), auto;
     transform: scale(110%);
     filter: contrast(100%);
+}
+
+.contact-info .contact-button-email a:hover,
+.contact-info .contact-button-github a:hover,
+.contact-info .contact-button-phone a:hover,
+.contact-info .contact-button-instagram a:hover {
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
 .contacts-title {
@@ -1296,6 +1303,15 @@ html {
     top: 0;
     right: 0;
     z-index: 1;
+}
+
+.contact-text {
+    margin-top: 4vw;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1vw;
+    font-weight: 600;
+    text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
+    color: rgb(92, 91, 76);
 }
 
 /*END CONTACT*/
