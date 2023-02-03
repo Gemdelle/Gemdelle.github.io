@@ -285,14 +285,36 @@ html {
 }
 
 .portrait {
+    height: 15vw;
+    width: 32vw;
     position: relative;
     background-image: url(Images/Portrait.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 15vw;
-    width: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.portrait:hover{
+    cursor: url("Images/Cursor-pointer.png"), auto;
+}
+
+.portrait-profession:has(.portrait:hover) > .portrait .photo-sparkles {
+    opacity: 1;
+}
+
+.photo-sparkles {
+    background-image: url(Images/Photo_sparkles.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12vw;
+    width: 26vw;
+    opacity: 0;
+}
+
 
 .portrait-profession {
     position: relative;
@@ -415,7 +437,7 @@ html {
     z-index: 1;
 }
 
-                /* Text */
+/* Text */
 
 .about-left,
 .about-right {
@@ -424,12 +446,12 @@ html {
     font-size: 1vw;
 }
 
-.about-info:has(.left-portrait .fade-in-trinket:hover) > .about-left{
+.about-info:has(.left-portrait .fade-in-trinket:hover)>.about-left {
     filter: contrast(100%);
     color: rgb(97, 97, 76);
 }
 
-.about-info:has(.right-portrait .fade-in-trinket:hover) > .about-right {
+.about-info:has(.right-portrait .fade-in-trinket:hover)>.about-right {
     filter: contrast(100%);
     color: rgb(146, 141, 101);
 }
@@ -448,7 +470,7 @@ html {
     text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
 }
 
-.about-right-text h2{
+.about-right-text h2 {
     color: rgb(99, 95, 67);
     font-size: 2vw;
     text-shadow: 0vw 0.5vw 0.5vw rgb(100, 100, 77);
@@ -1179,7 +1201,7 @@ html {
     background-position: center;
 }
 
-.contact-info .contact-button-email:hover{
+.contact-info .contact-button-email:hover {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
@@ -1192,7 +1214,7 @@ html {
     background-position: center;
 }
 
-.contact-info .contact-button-github:hover{
+.contact-info .contact-button-github:hover {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
@@ -1205,7 +1227,7 @@ html {
     background-position: center;
 }
 
-.contact-info .contact-button-phone:hover{
+.contact-info .contact-button-phone:hover {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
@@ -1218,7 +1240,7 @@ html {
     background-position: center;
 }
 
-.contact-info a:hover{
+.contact-info a:hover {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
