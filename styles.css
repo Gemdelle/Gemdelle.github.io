@@ -8,6 +8,7 @@
 html {
     cursor: url("Images/Cursor.png"), auto;
     scroll-behavior: smooth;
+    background-color: rgb(29, 30, 30);
 }
 
 #navbar {
