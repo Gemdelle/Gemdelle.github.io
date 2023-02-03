@@ -413,17 +413,12 @@ html {
 .about-right {
     filter: contrast(50%);
     transition: all 500ms ease-in-out;
+    font-size: 1vw;
 }
 
 .about-left:hover,
 .about-right:hover {
     filter: contrast(100%);
-}
-
-.about-left-text,
-.about-right-text {
-    color: rgb(187, 185, 185);
-    font-size: 1vw;
 }
 
 .about-left-text {
@@ -441,6 +436,7 @@ html {
 .about-left-text h2 {
     color: rgb(77, 77, 65);
     font-size: 1.5vw;
+    text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
 }
 
 .about-right-text:hover {
@@ -450,6 +446,7 @@ html {
 .about-right-text h2{
     color: rgb(99, 95, 67);
     font-size: 2vw;
+    text-shadow: 0vw 0.5vw 0.5vw rgb(100, 100, 77);
 }
 
 /*END ABOUT*/
