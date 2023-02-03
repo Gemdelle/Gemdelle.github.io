@@ -315,7 +315,6 @@ html {
     opacity: 0;
 }
 
-
 .portrait-profession {
     position: relative;
     width: 100%;
@@ -720,8 +719,6 @@ html {
     justify-content: flex-end;
     align-items: flex-end;
 }
-
-
 
 .project-title {
     width: 6vw;
@@ -1312,9 +1309,10 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 25vw;
-    width: 26vw;
+    height: 10vw;
+    width: 10vw;
     opacity: 0;
+    transition: all 500ms ease-in-out;
 }
 
 .message:hover{
@@ -1339,7 +1337,7 @@ html {
 .contact-text {
     margin-top: 4vw;
     font-family: 'Pinyon Script', cursive;
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-weight: 600;
     text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
     color: rgb(92, 91, 76);
