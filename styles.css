@@ -7,6 +7,7 @@
 
 html {
     cursor: url("Images/Cursor.png"), auto;
+    scroll-behavior: smooth;
 }
 
 #navbar {
@@ -31,12 +32,31 @@ html {
     list-style-type: none;
 }
 
+#social-media-anchor {
+    top: 43vw;
+    width: 213px;
+    height: 7vw;
+    position: absolute;
+    display: block;
+}
+
+#projects-anchor {
+    bottom: 47vw;
+    width: 213px;
+    height: 8vw;
+    position: absolute;
+    display: block;
+}
+
 .welcome,
 .projects,
 .social-media {
     width: 10vw;
     height: 6vw;
     cursor: url("Images/Cursor-pointer.png"), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome {
@@ -61,14 +81,37 @@ html {
     background-position: center;
 }
 
+.projects:hover {
+    background-image: url(Images/Projects-selected.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome:hover {
+    background-image: url(Images/Welcome-selected.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-media:hover {
+    background-image: url(Images/Contact-selected.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .welcome a,
 .projects a,
 .social-media a {
-    width: 100%;
+    width: 60%;
     height: 100%;
+    display: block;
+    cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
-.social-media{
+.social-media {
     background-image: url(Images/Contact-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -286,7 +329,7 @@ html {
     cursor: url("Images/Cursor-pointer.png"), auto;
 }
 
-.about-left-side-decoration{
+.about-left-side-decoration {
     background-image: url(Images/Portfolio-border.png);
     background-size: cover;
     background-position: center;
@@ -368,7 +411,7 @@ html {
     cursor: url("Images/Cursor-pointer.png"), auto;
     background-image: url(Images/Show-all-hover.png);
     transform: scale(110%);
-    
+
 }
 
 .small-project {
@@ -475,7 +518,7 @@ html {
     position: relative;
 }
 
-.projects-sub-container{
+.projects-sub-container {
     height: 100%;
     padding: 1vw;
     display: flex;
