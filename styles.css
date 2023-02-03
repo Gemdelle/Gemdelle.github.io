@@ -61,7 +61,7 @@ html {
 }
 
 .welcome,
-.about,
+.about-nav,
 .projects,
 .social-media {
     width: 10vw;
@@ -89,7 +89,7 @@ html {
     transition: all 300ms ease-in-out;
 }
 
-.about {
+.about-nav {
     background-image: url(Images/About-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ html {
     transition: all 300ms ease-in-out;
 }
 
-.about:hover {
+.about-nav:hover {
     background-image: url(Images/About-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ html {
 }
 
 .welcome a,
-.about a,
+.about-nav a,
 .projects a,
 .social-media a {
     width: 60%;
