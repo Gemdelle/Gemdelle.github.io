@@ -1153,14 +1153,14 @@ html {
 }
 
 .contact-info .message {
+    height: 28vw;
+    width: 32vw;
     background-image: url(Images/Message.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 28vw;
-    width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -1195,6 +1195,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .contact-info .access-container {
@@ -1303,6 +1304,35 @@ html {
     top: 0;
     right: 0;
     z-index: 1;
+}
+
+.message-sparkles {
+    background-image: url(Images/Photo_sparkles.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vw;
+    width: 26vw;
+    opacity: 0;
+}
+
+.message:hover{
+    cursor: url("Images/Cursor-pointer.png"), auto;
+}
+
+.contact-info:has(.message:hover) > .message .message-sparkles {
+    opacity: 1;
+}
+
+.contact-sparkles {
+    background-image: url(Images/Photo_sparkles.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3vw;
+    width: 7vw;
+    position: absolute;
+    top: 2vw;
 }
 
 .contact-text {
