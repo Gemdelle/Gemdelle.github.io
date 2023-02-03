@@ -416,9 +416,14 @@ html {
     font-size: 1vw;
 }
 
-.about-left:hover,
-.about-right:hover {
+.about-info:has(.left-portrait .fade-in-trinket:hover) > .about-left{
     filter: contrast(100%);
+    color: rgb(97, 97, 76);
+}
+
+.about-info:has(.right-portrait .fade-in-trinket:hover) > .about-right {
+    filter: contrast(100%);
+    color: rgb(146, 141, 101);
 }
 
 .about-left-text {
@@ -429,18 +434,10 @@ html {
     font-family: 'Pinyon Script', cursive;
 }
 
-.about-left-text:hover {
-    color: rgb(97, 97, 76);
-}
-
 .about-left-text h2 {
     color: rgb(77, 77, 65);
     font-size: 1.5vw;
     text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
-}
-
-.about-right-text:hover {
-    color: rgb(146, 141, 101);
 }
 
 .about-right-text h2{
