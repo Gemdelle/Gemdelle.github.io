@@ -1220,6 +1220,7 @@ html {
     align-items: center;
     transition: all 500ms ease-in-out;
     filter: contrast(60%);
+    margin-left: 0.3vw;
 }
 
 .contact-info .contact-button-email  {
