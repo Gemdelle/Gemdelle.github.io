@@ -218,7 +218,7 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 47.2vw;
+    height: 50vw;
     top: 0;
     left: -0.5vw;
     z-index: 1;
@@ -230,7 +230,7 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 47.2vw;
+    height: 50vw;
     top: 0;
     right: -0.8vw;
     z-index: 1;
@@ -497,6 +497,7 @@ html {
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 
@@ -1116,7 +1117,7 @@ html {
     height: 41vw;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 .projects-right-side-decoration {
@@ -1129,7 +1130,7 @@ html {
     width: 0.3vw;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 
