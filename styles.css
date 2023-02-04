@@ -635,7 +635,7 @@ html {
 }
 
 .projects-container {
-    background-image: url(Images/Connections.png);
+    background-image: url(https://www.linkpicture.com/q/Connections.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1058,7 +1058,7 @@ html {
 }
 
 .projects-container:has(.nutrition-project:hover)>div.projects_backgrounds {
-    background-image: url(https://www.linkpicture.com/q/Back-memotest.png);
+    background-image: url(https://www.linkpicture.com/q/Back-nutrition.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1249,7 +1249,7 @@ html {
 .contact-info .contact-button-github a:hover,
 .contact-info .contact-button-phone a:hover,
 .contact-info .contact-button-instagram a:hover {
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .contacts-title {
