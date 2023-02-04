@@ -1,30 +1,3 @@
-/*
-font-family: 'Abyssinica SIL', serif;
-font-family: 'Alice', serif;
-font-family: 'Berkshire Swash', cursive;
-font-family: 'Cinzel', serif;
-font-family: 'Delius', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Gugi', cursive;
-font-family: 'Henny Penny', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'IBM Plex Serif', serif;
-font-family: 'IM Fell English SC', serif;
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'La Belle Aurore', cursive;
-font-family: 'Lemonada', cursive;
-font-family: 'Macondo', cursive;
-font-family: 'Old Standard TT', serif;
-font-family: 'Pinyon Script', cursive;
-font-family: 'Rubik Marker Hatch', cursive;
-font-family: 'Rubik Microbe', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Tangerine', cursive;
-font-family: 'Titillium Web', sans-serif;
-*/
-
 @media (max-width: 768px) {}
 
 * {
@@ -218,9 +191,9 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50vw;
+    height: 100vh;
     top: 0;
-    left: -0.5vw;
+    left: -0.3vw;
     z-index: 1;
 }
 
@@ -230,9 +203,9 @@ html {
     background-position: center;
     position: absolute;
     width: 6vw;
-    height: 50vw;
+    height: 100vh;
     top: 0;
-    right: -0.8vw;
+    right: -0.7vw;
     z-index: 1;
 }
 
@@ -313,6 +286,7 @@ html {
     height: 8vw;
     width: 10vw;
     opacity: 0;
+    transition: all 500ms ease-in-out;
 }
 
 .portrait-profession {
