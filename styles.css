@@ -33,7 +33,7 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 html {
-    cursor: url("Images/Cursor.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor_2.png), auto;
     scroll-behavior: smooth;
     background-color: rgb(235, 235, 222);
 }
@@ -43,7 +43,7 @@ html {
     width: 100%;
     height: 7vw;
     z-index: 3;
-    background-image: url(Images/Nav-background.png);
+    background-image: url(https://www.linkpicture.com/q/Nav-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,14 +90,14 @@ html {
 .social-media {
     width: 10vw;
     height: 6vw;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .welcome {
-    background-image: url(Images/Welcome-neutral.png);
+    background-image: url(https://www.linkpicture.com/q/Welcome-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ html {
 }
 
 .welcome:active {
-    background-image: url(Images/Welcome-neutral.png);
+    background-image: url(https://www.linkpicture.com/q/Welcome-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@ html {
 }
 
 .about-nav {
-    background-image: url(Images/About-neutral.png);
+    background-image: url(https://www.linkpicture.com/q/About-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@ html {
 }
 
 .about-nav:hover {
-    background-image: url(Images/About-selected.png);
+    background-image: url(https://www.linkpicture.com/q/About-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,7 +130,7 @@ html {
 }
 
 .projects {
-    background-image: url(Images/Projects-neutral.png);
+    background-image: url(https://www.linkpicture.com/q/Projects-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +138,7 @@ html {
 }
 
 .projects:hover {
-    background-image: url(Images/Projects-selected.png);
+    background-image: url(https://www.linkpicture.com/q/Projects-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +146,7 @@ html {
 }
 
 .welcome:hover {
-    background-image: url(Images/Welcome-selected.png);
+    background-image: url(https://www.linkpicture.com/q/Welcome-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +154,7 @@ html {
 }
 
 .social-media {
-    background-image: url(Images/Contact-neutral.png);
+    background-image: url(https://www.linkpicture.com/q/Contact-neutral.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,7 +163,7 @@ html {
 }
 
 .social-media:hover {
-    background-image: url(Images/Contact-selected.png);
+    background-image: url(https://www.linkpicture.com/q/Contact-selected.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,7 +177,7 @@ html {
     width: 60%;
     height: 100%;
     display: block;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 #welcome-section {
@@ -189,7 +189,7 @@ html {
 #welcome {
     width: 70vw;
     height: 100vh;
-    background-image: url(Images/Banner01.png);
+    background-image: url(https://www.linkpicture.com/q/Banner01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom -2vw right -11vw;
@@ -204,16 +204,16 @@ html {
     width: 70vw;
     height: 100vh;
     overflow: hidden;
-    background-image: url(Images/Banner02.png);
+    background-image: url(https://www.linkpicture.com/q/Banner02.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom -2vw right -11vw;
     animation: pulse 1s linear infinite;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .left-side-decoration {
-    background-image: url(Images/Lace.png);
+    background-image: url(https://www.linkpicture.com/q/Lace.png);
     background-size: contain;
     background-position: center;
     position: absolute;
@@ -225,7 +225,7 @@ html {
 }
 
 .right-side-decoration {
-    background-image: url(Images/Lace.png);
+    background-image: url(https://www.linkpicture.com/q/Lace.png);
     background-size: contain;
     background-position: center;
     position: absolute;
@@ -260,7 +260,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    background-image: url(Images/About-background.png);
+    background-image: url(https://www.linkpicture.com/q/About-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -288,7 +288,7 @@ html {
     height: 15vw;
     width: 32vw;
     position: relative;
-    background-image: url(Images/Portrait.png);
+    background-image: url(https://www.linkpicture.com/q/Portrait_1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ html {
 }
 
 .portrait:hover{
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .portrait-profession:has(.portrait:hover) > .portrait .photo-sparkles {
@@ -306,7 +306,7 @@ html {
 }
 
 .photo-sparkles {
-    background-image: url(Images/Photo_sparkles.gif);
+    background-image: url(https://www.linkpicture.com/q/Photo_sparkles.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@ html {
 .right-portrait {
     height: 11vw;
     width: 7vw;
-    background-image: url(Images/Creativity-trinket.png);
+    background-image: url(https://www.linkpicture.com/q/Creativity-trinket.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -338,7 +338,7 @@ html {
 .left-portrait {
     height: 11vw;
     width: 7vw;
-    background-image: url(Images/Logic-trinket.png);
+    background-image: url(https://www.linkpicture.com/q/Logic-trinket.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -351,7 +351,7 @@ html {
     height: 18vw;
     width: 32vw;
     position: relative;
-    background-image: url(Images/Logic-background.png);
+    background-image: url(https://www.linkpicture.com/q/Logic-background.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -373,7 +373,7 @@ html {
     height: 18vw;
     width: 32vw;
     position: relative;
-    background-image: url(Images/Creativity-background.png);
+    background-image: url(https://www.linkpicture.com/q/Creativity-background.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -391,7 +391,7 @@ html {
 }
 
 .fade-in-trinket {
-    background-image: url(Images/Fade-in-trinket.png);
+    background-image: url(https://www.linkpicture.com/q/Fade-in-trinket.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -407,11 +407,11 @@ html {
 .fade-in-trinket:hover {
     opacity: 0;
     transition: all 300ms ease-in-out;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .about-left-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@ html {
 }
 
 .about-right-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ html {
 .divisor-margin {
     width: 100%;
     height: 5.9vw;
-    background-image: url(Images/Divider.png);
+    background-image: url(https://www.linkpicture.com/q/Divider.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -510,7 +510,7 @@ html {
 .projects-title {
     height: 9vw;
     width: 30%;
-    background-image: url(Images/Projects-title.png);
+    background-image: url(https://www.linkpicture.com/q/Projects-title.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -526,17 +526,17 @@ html {
     position: absolute;
     margin-right: 7vw;
     margin-top: 13vw;
-    background-image: url(Images/Show-all.png);
+    background-image: url(https://www.linkpicture.com/q/Show-all.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 500ms;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .projects-button:hover {
-    cursor: url("Images/Cursor-pointer.png"), auto;
-    background-image: url(Images/Show-all-hover.png);
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
+    background-image: url(https://www.linkpicture.com/q/Show-all-hover.png);
     transform: scale(105%);
 
 }
@@ -544,7 +544,7 @@ html {
 .small-project {
     width: 7.5vw;
     height: 7.5vw;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
     z-index: 2;
 }
 
@@ -552,13 +552,13 @@ html {
     width: 100%;
     height: 100%;
     display: block;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .medium-project {
     width: 9vw;
     height: 9vw;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
     z-index: 2;
 }
 
@@ -566,13 +566,13 @@ html {
     width: 100%;
     height: 100%;
     display: block;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .important-project {
     width: 13vw;
     height: 13vw;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
     z-index: 2;
 }
 
@@ -580,14 +580,14 @@ html {
     width: 100%;
     height: 100%;
     display: block;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .projects-button a {
     width: 100%;
     height: 100%;
     display: block;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .left-top-description {
@@ -735,91 +735,91 @@ html {
 }
 
 .magazine-project {
-    background-image: url(Images/Magazine_project.png);
+    background-image: url(https://www.linkpicture.com/q/Magazine_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .product-project {
-    background-image: url(Images/Product_project.png);
+    background-image: url(https://www.linkpicture.com/q/Product_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .lps-project {
-    background-image: url(Images/LPS_project.png);
+    background-image: url(https://www.linkpicture.com/q/LPS_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .registration-project {
-    background-image: url(Images/Registration_project.png);
+    background-image: url(https://www.linkpicture.com/q/Registration_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .survey-project {
-    background-image: url(Images/Survey_project.png);
+    background-image: url(https://www.linkpicture.com/q/Survey_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .beautymorphosy-project {
-    background-image: url(Images/Beautymorphosy.png);
+    background-image: url(https://www.linkpicture.com/q/Beautymorphosy.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tribute-project {
-    background-image: url(Images/Tribute_project.png);
+    background-image: url(https://www.linkpicture.com/q/Tribute_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .ferris-wheel-project {
-    background-image: url(Images/FerrisWheel.png);
+    background-image: url(https://www.linkpicture.com/q/FerrisWheel.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .nutrition-project {
-    background-image: url(Images/NutritionLabel_project.png);
+    background-image: url(https://www.linkpicture.com/q/NutritionLabel_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .piano-project {
-    background-image: url(Images/Piano_project.png);
+    background-image: url(https://www.linkpicture.com/q/Piano_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .documentation-project {
-    background-image: url(Images/Hellbox_project.png);
+    background-image: url(https://www.linkpicture.com/q/Hellbox_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .memotest-project {
-    background-image: url(Images/memotest_project.png);
+    background-image: url(https://www.linkpicture.com/q/memotest_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .majesties-project {
-    background-image: url(Images/Majesties_project.png);
+    background-image: url(https://www.linkpicture.com/q/Majesties_project.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -828,77 +828,77 @@ html {
 /*DESCRIPTIONS*/
 
 .memotest-project-description {
-    background-image: url(Images/memotest_description.png);
+    background-image: url(https://www.linkpicture.com/q/memotest_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .ferris-project-description {
-    background-image: url(Images/ferris_description.png);
+    background-image: url(https://www.linkpicture.com/q/ferris_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .flexbox-project-description {
-    background-image: url(Images/Hellbox_descriptions.png);
+    background-image: url(https://www.linkpicture.com/q/Hellbox_descriptions.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .piano-project-description {
-    background-image: url(Images/piano_description.png);
+    background-image: url(https://www.linkpicture.com/q/piano_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .nutrition-project-description {
-    background-image: url(Images/nutrition_description.png);
+    background-image: url(https://www.linkpicture.com/q/nutrition_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .beautymorphosy-project-description {
-    background-image: url(Images/Beautymorphosy_description.png);
+    background-image: url(https://www.linkpicture.com/q/Beautymorphosy_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tribute-project-description {
-    background-image: url(Images/tribute_description.png);
+    background-image: url(https://www.linkpicture.com/q/tribute_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .survey-project-description {
-    background-image: url(Images/Survey_description.png);
+    background-image: url(https://www.linkpicture.com/q/Survey_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .registration-project-description {
-    background-image: url(Images/registration_description.png);
+    background-image: url(https://www.linkpicture.com/q/registration_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .lps-project-description {
-    background-image: url(Images/lps_description.png);
+    background-image: url(https://www.linkpicture.com/q/lps_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .majesties-project-description {
-    background-image: url(Images/Majesties_description.png);
+    background-image: url(https://www.linkpicture.com/q/Majesties_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -906,14 +906,14 @@ html {
 
 
 .product-project-description {
-    background-image: url(Images/product_description.png);
+    background-image: url(https://www.linkpicture.com/q/product_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .magazine-project-description {
-    background-image: url(Images/magazine_description.png);
+    background-image: url(https://www.linkpicture.com/q/magazine_description.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -974,11 +974,11 @@ html {
 .projects-container:has(.magazine-project:hover)>.projects-sub-container .project-container .magazine-project-description {
     opacity: 1;
     transition: all 500ms ease-in-out;
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .projects-container:has(.magazine-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-magazine.png);
+    background-image: url(https://www.linkpicture.com/q/Back-magazine.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -988,7 +988,7 @@ html {
 }
 
 .projects-container:has(.product-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-landing.png);
+    background-image: url(https://www.linkpicture.com/q/Back-landing.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -998,7 +998,7 @@ html {
 }
 
 .projects-container:has(.lps-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-LPS.png);
+    background-image: url(https://www.linkpicture.com/q/Back-LPS.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1008,7 +1008,7 @@ html {
 }
 
 .projects-container:has(.registration-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-registration.png);
+    background-image: url(https://www.linkpicture.com/q/Back-registration.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1018,7 +1018,7 @@ html {
 }
 
 .projects-container:has(.survey-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-survey.png);
+    background-image: url(https://www.linkpicture.com/q/Back-survey.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1028,7 +1028,7 @@ html {
 }
 
 .projects-container:has(.beautymorphosy-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-beautymorphosy.png);
+    background-image: url(https://www.linkpicture.com/q/Back-beautymorphosy.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1038,7 +1038,7 @@ html {
 }
 
 .projects-container:has(.tribute-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-tribute.png);
+    background-image: url(https://www.linkpicture.com/q/Back-tribute.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1048,7 +1048,7 @@ html {
 }
 
 .projects-container:has(.ferris-wheel-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-ferris.png);
+    background-image: url(https://www.linkpicture.com/q/Back-ferris.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1058,7 +1058,7 @@ html {
 }
 
 .projects-container:has(.nutrition-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-nutrition.png);
+    background-image: url(https://www.linkpicture.com/q/Back-memotest.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1068,7 +1068,7 @@ html {
 }
 
 .projects-container:has(.piano-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-piano.png);
+    background-image: url(https://www.linkpicture.com/q/Back-piano.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1078,7 +1078,7 @@ html {
 }
 
 .projects-container:has(.documentation-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-flexbox.png);
+    background-image: url(https://www.linkpicture.com/q/Back-flexbox.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1088,7 +1088,7 @@ html {
 }
 
 .projects-container:has(.memotest-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-memotest.png);
+    background-image: url(https://www.linkpicture.com/q/Back-memotest.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1098,7 +1098,7 @@ html {
 }
 
 .projects-container:has(.majesties-project:hover)>div.projects_backgrounds {
-    background-image: url(Images/Back-majesties.png);
+    background-image: url(https://www.linkpicture.com/q/Back-majesties.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1108,7 +1108,7 @@ html {
 }
 
 .projects-left-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1121,7 +1121,7 @@ html {
 }
 
 .projects-right-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1144,7 +1144,7 @@ html {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-image: url(Images/Contact-background.png);
+    background-image: url(https://www.linkpicture.com/q/Contact-background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1153,7 +1153,7 @@ html {
 .contact-info .message {
     height: 28vw;
     width: 32vw;
-    background-image: url(Images/Message.png);
+    background-image: url(https://www.linkpicture.com/q/Message.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1173,7 +1173,7 @@ html {
 }
 
 .contact-info .contact-divisor {
-    background-image: url(Images/Icon-division.png);
+    background-image: url(https://www.linkpicture.com/q/Icon-division.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1185,7 +1185,7 @@ html {
 .contact-info .contact-access {
     width: 100%;
     height: 20vw;
-    background-image: url(Images/Icon-background.png);
+    background-image: url(https://www.linkpicture.com/q/Icon-background.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1222,19 +1222,19 @@ html {
 }
 
 .contact-info .contact-button-email  {
-    background-image: url(Images/Email-icon.png);
+    background-image: url(https://www.linkpicture.com/q/Email-icon.png);
 }
 
 .contact-info .contact-button-github {
-    background-image: url(Images/Github-icon.png);
+    background-image: url(https://www.linkpicture.com/q/Github-icon.png);
 }
 
 .contact-info .contact-button-phone {
-    background-image: url(Images/Phone-icon.png);
+    background-image: url(https://www.linkpicture.com/q/Phone-icon.png);
 }
 
 .contact-info .contact-button-instagram {
-    background-image: url(Images/Instagram-icon.png);
+    background-image: url(https://www.linkpicture.com/q/Instagram-icon.png);
 }
 
 .contact-info .contact-button-email:hover,
@@ -1255,7 +1255,7 @@ html {
 .contacts-title {
     height: 9vw;
     width: 30%;
-    background-image: url(Images/Contact-title.png);
+    background-image: url(https://www.linkpicture.com/q/Contact-title.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1280,7 +1280,7 @@ html {
 }
 
 .contacts-left-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1293,7 +1293,7 @@ html {
 }
 
 .contacts-right-side-decoration {
-    background-image: url(Images/Portfolio-border.png);
+    background-image: url(https://www.linkpicture.com/q/Portfolio-border.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1306,7 +1306,7 @@ html {
 }
 
 .message-sparkles {
-    background-image: url(Images/Photo_sparkles.gif);
+    background-image: url(https://www.linkpicture.com/q/Photo_sparkles.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1317,7 +1317,7 @@ html {
 }
 
 .message:hover{
-    cursor: url("Images/Cursor-pointer.png"), auto;
+    cursor: url(https://www.linkpicture.com/q/Cursor-pointer.png), auto;
 }
 
 .contact-info:has(.message:hover) > .message .message-sparkles {
@@ -1325,7 +1325,7 @@ html {
 }
 
 .contact-sparkles {
-    background-image: url(Images/Photo_sparkles.gif);
+    background-image: url(https://www.linkpicture.com/q/Photo_sparkles.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1352,7 +1352,7 @@ html {
 .footer {
     width: 100%;
     height: 7vw;
-    background-image: url(Images/Nav-background.png);
+    background-image: url(https://www.linkpicture.com/q/Nav-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1384,7 +1384,7 @@ html {
 }
 
 .icon-footer-left {
-    background-image: url(Images/Footer-left.png);
+    background-image: url(https://www.linkpicture.com/q/Footer-left.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1394,7 +1394,7 @@ html {
 }
 
 .icon-footer-right {
-    background-image: url(Images/Footer-right.png);
+    background-image: url(https://www.linkpicture.com/q/Footer-right.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
